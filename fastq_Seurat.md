@@ -1,7 +1,3 @@
-This documentation covers the integration of **Honeycomb Bio BeeNet** for processing scRNA-seq data and the subsequent workflow for merging these datasets into a unified Seurat object.
-
----
-
 # Single-Cell RNA-Seq: BeeNet Plus & Seurat Integration
 
 This guide details the transition from BeeNet-processed FASTQ files to a merged, multi-sample Seurat object on the Cypress HPC.
