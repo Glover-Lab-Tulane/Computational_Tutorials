@@ -10,9 +10,9 @@ This workflow describes the transition from raw FASTQ files to a filtered Seurat
 
 For high-throughput genomics, Cell Ranger is installed in the project directory to handle large reference genomes and high I/O workloads.
 
-* **Version:** 10.0.0
+* **Version:** 10.0.0 (Download from https://www.10xgenomics.com/support/software/cell-ranger/downloads#download-links)
 * **Path:** `/lustre/project/sglover3/cellranger-10.0.0`
-* **Reference Genome:** GRCh38-2024-A
+* **Reference Genome:** GRCh38-2024-A (Download from https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads)
 
 ---
 
