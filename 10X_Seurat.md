@@ -18,7 +18,7 @@ For high-throughput genomics, Cell Ranger is installed in the project directory 
 
 ## 2. SLURM Job Submission (`cellranger count`)
 
-The following script automates the alignment, filtering, and barcode counting. Note that we disable BAM file generation (`--create-bam false`) to save significant disk space and reduce runtime.
+The following script automates the alignment, filtering, and barcode counting. Note that we disable BAM file generation (`--create-bam false`) to save significant disk space and reduce runtime. Run this script using the command `sbatch count_job.sh`.
 
 ### Batch Script (`count_job.sh`)
 
