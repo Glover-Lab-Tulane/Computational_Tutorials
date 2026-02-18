@@ -1,7 +1,3 @@
-This documentation covers the secondary phase of the pipeline: processing raw sequencing data into gene-expression matrices using **10x Genomics Cell Ranger** and performing downstream Quality Control (QC) in **R/Seurat**.
-
----
-
 # Single-Cell RNA-Seq Pipeline: Cell Ranger to Seurat
 
 This workflow describes the transition from raw FASTQ files to a filtered Seurat object on the Cypress HPC.
