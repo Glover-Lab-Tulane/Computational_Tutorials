@@ -101,5 +101,3 @@ When finished:
 2. Click the **Power icon (Quit)** in the top right of the RStudio UI.
 3. In your terminal, use `Ctrl+C` to stop the Singularity instance.
 4. Type `exit` to release the `idev` compute node allocation.
-
-**Would you like me to help you configure the `database.conf` file mentioned in the launch command to ensure persistent user sessions?**
