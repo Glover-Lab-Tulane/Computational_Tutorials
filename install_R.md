@@ -1,7 +1,3 @@
-This documentation provides a technical guide for setting up a custom Anaconda installation and a specific R environment on the **Cypress HPC** cluster.
-
----
-
 # HPC Environment Setup: Anaconda & R on Cypress
 
 This guide outlines the process for installing Anaconda3 in a non-standard directory (Lustre parallel filesystem) and initializing a reproducible R environment via a YAML configuration.
