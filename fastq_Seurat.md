@@ -32,6 +32,22 @@ We utilize the project storage path for the `beenet` binary and reference genome
 * **`--num-barcodes`**: Limits processing to the top N barcodes (useful for filtering background noise).
 * **Output**: Generates a `.tsv.gz` file (Transcript Count Matrix) in the specified output directory.
 
+### Downloading the Reference Genome
+
+BeeNet provides a built-in utility to download and prepare reference genomes. On Cypress, we store these in the shared project directory to ensure accessibility and save user home directory space.
+
+### Command
+
+```bash
+# Download the GRCh38 human reference (version 104)
+/lustre/project/sglover3/beenet download-ref 20210603_GRCh38.104
+
+```
+
+> [!NOTE]
+> The reference download and indexing process is a one-time setup step. Ensure you have sufficient disk space in `/lustre/project/sglover3/` before starting, as reference genomes typically exceed 20GB.
+
+---
 ---
 
 ## 2. Downstream R Analysis: Loading BeeNet TCMs
