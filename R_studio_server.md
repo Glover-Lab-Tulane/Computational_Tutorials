@@ -1,7 +1,3 @@
-This documentation details the process of deploying a persistent, containerized **RStudio Server** on the Cypress HPC cluster using **Singularity** and accessing it via an **SSH Tunnel**.
-
----
-
 # HPC Interactive Guide: RStudio Server via Singularity
 
 This workflow enables a full RStudio GUI session on a compute node, utilizing a custom Conda-based R kernel and high-memory allocations.
