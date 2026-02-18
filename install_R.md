@@ -48,7 +48,7 @@ Since the installation is in a non-standard path, you must manually point to the
 
 ## 3. Environment Provisioning (R_env)
 
-To ensure reproducibility, we use a pre-defined YAML configuration file (`R_env.yml`). This file contains the environment name, channels, and specific R dependencies.
+To ensure reproducibility, we use a pre-defined YAML configuration file ([`R_env.yml`](R_env.yml)). This file contains the environment name, channels, and specific R dependencies.
 
 ### Create Environment from YAML
 
