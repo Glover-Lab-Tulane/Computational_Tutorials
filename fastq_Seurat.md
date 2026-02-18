@@ -48,7 +48,6 @@ BeeNet provides a built-in utility to download and prepare reference genomes. On
 > The reference download and indexing process is a one-time setup step. Ensure you have sufficient disk space in `/lustre/project/sglover3/` before starting, as reference genomes typically exceed 20GB.
 
 ---
----
 
 ## 2. Downstream R Analysis: Loading BeeNet TCMs
 
