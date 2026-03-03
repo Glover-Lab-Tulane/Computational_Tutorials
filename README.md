@@ -28,6 +28,7 @@ Documentation for converting raw FASTQ files into gene-expression matrices.
 
 * **[10x Genomics Workflow (10X_Seurat.md)](10X_Seurat.md):** SLURM job submission for `cellranger count` and initial Seurat QC.
 * **[BeeNet Plus Workflow (fastq_Seurat.md)](fastq_Seurat.md):** Downloading BeeNet references, generating TCMs, and merging multi-sample HIVE datasets.
+* **[H5AD Workflow (h5ad_Seurat.md)](h5ad_Seurat.md):** Single-Cell Data Interoperability: H5AD to Seurat.
 
 ### 3. Interactive Analysis
 
