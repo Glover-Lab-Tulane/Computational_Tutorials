@@ -4,10 +4,11 @@ This repository contains comprehensive documentation and configuration files for
 
 ## 🧬 Project Overview
 
-The pipeline supports two primary data streams:
+The pipeline supports three primary data streams:
 
 1. **10x Genomics:** Using Cell Ranger for alignment and quantification.
 2. **Honeycomb Bio (HIVE):** Using the BeeNet Plus suite for TCM generation.
+3. **H5ad:** Using python and R coverting them to Seurat object.
 
 All downstream analysis is unified within **R/Seurat**, hosted on a containerized RStudio Server environment for high-memory interactive analysis.
 
