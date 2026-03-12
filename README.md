@@ -1,6 +1,9 @@
 # Cypress HPC Single-Cell Analysis Pipeline
 
 This repository contains comprehensive documentation and configuration files for processing single-cell RNA-seq data on the **Cypress High Performance Computing (HPC)** cluster. It covers the end-to-end workflow from environment setup and raw data processing to interactive visualization.
+<img width="3356" height="821" alt="image (1)" src="https://github.com/user-attachments/assets/059d5da2-1a6f-4098-86f6-e745f37be05d" />
+
+
 
 ## 🧬 Project Overview
 
