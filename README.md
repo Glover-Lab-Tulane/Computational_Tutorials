@@ -9,6 +9,7 @@ The pipeline supports three primary data streams:
 1. **10x Genomics:** Using Cell Ranger for alignment and quantification.
 2. **Honeycomb Bio (HIVE):** Using the BeeNet Plus suite for TCM generation.
 3. **H5ad:** Using python and R coverting them to Seurat object.
+4. **H5:** Using R to convert H5 files to Seurat object. 
 
 All downstream analysis is unified within **R/Seurat**, hosted on a containerized RStudio Server environment for high-memory interactive analysis.
 
@@ -29,7 +30,8 @@ Documentation for converting raw FASTQ files into gene-expression matrices.
 
 * **[10x Genomics Workflow (10X_Seurat.md)](10X_Seurat.md):** SLURM job submission for `cellranger count` and initial Seurat QC.
 * **[BeeNet Plus Workflow (fastq_Seurat.md)](fastq_Seurat.md):** Downloading BeeNet references, generating TCMs, and merging multi-sample HIVE datasets.
-* **[H5AD Workflow (h5ad_Seurat.md)](h5ad_Seurat.md):** Single-Cell Data Interoperability: H5AD to Seurat.
+* **[H5AD Workflow (h5ad_Seurat.md)](h5ad_Seurat.md):** Single-Cell Data Interoperability: H5AD files to Seurat.
+* **[H5 Workflow (H5_to_Seurat.md)](H5_to_Seurat.md):** Single-Cell Data Interoperability: H5 files to Seurat.
 
 ### 3. Interactive Analysis
 
